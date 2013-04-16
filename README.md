@@ -23,12 +23,12 @@ I show how to add this in Interface Builder in steps 1 and 2.
 2. Change class from default to custom class `MTZTiltReflectionSlider`.
 ![Custom class](README Images/Custom Class.png)
 
-* Add the CoreMotion Framework to your project
+3. Add the CoreMotion Framework to your project
 ![Add CoreMotion Framework](README Images/Add CoreMotion Framework.png)
 
-* Be sure to `#import "MTZTiltReflectionSlider.h"` in your UIViewController subclass
+4. Be sure to `#import "MTZTiltReflectionSlider.h"` in your UIViewController subclass
 
-* Set the size of the knob
+5. Set the size of the knob
 
 	Small: 32px (`MTZTiltReflectionSliderSizeSmall`)
 
@@ -38,7 +38,7 @@ I show how to add this in Interface Builder in steps 1 and 2.
 	
 	If no size is set, it defaults to regular size (48px)
 	
-* Tell the slider to start motion updates when needed and stop when not needed
+6. Tell the slider to start motion updates when needed and stop when not needed
 	
 	In your UIViewController subclass:
 		
