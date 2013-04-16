@@ -20,7 +20,6 @@ I show how to add this in Interface Builder in steps 1 and 2.
 ![Add CoreMotion Framework](README Images/Add CoreMotion Framework.png)
 
 * Be sure to `#import "MTZTiltReflectionSlider.h"` in your UIViewController subclass
-![Import header](README Images/Import.png)
 
 * Set the size of the knob
 
