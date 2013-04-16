@@ -10,9 +10,7 @@
 #import <CoreMotion/CoreMotion.h>
 
 #import "MTZTiltReflectionSlider.h"
-#import "GZCoreGraphicsAdditions.h"
 #import "UIImage+Shadow.h"
-#import "UIImage+Rotate.h"
 #import "UISlider+ForAllStates.h"
 
 // Private properties.
@@ -102,6 +100,12 @@
 	
 	// Set up our motion updates
 	[self getReadyForMotionDetection];
+	
+	// Observe _thumbView's frame
+	[self performSelector:@selector(observeThumbViewFrame) withObject:nil afterDelay:FLT_MIN];
+	
+	// Center shine
+	[self performSelector:@selector(updateShinePositions) withObject:nil afterDelay:FLT_MIN];
 }
 
 - (void)setSize:(MTZTiltReflectionSliderSize)size
@@ -180,19 +184,21 @@
 												}];
 	}
 	
+	[self updateShinePositions];
+}
+
+- (void)observeThumbViewFrame
+{
 	[(UIImageView *)[self valueForKeyPath:@"_thumbView"] addObserver:self
 														  forKeyPath:@"frame"
 															 options:NSKeyValueObservingOptionNew
 															 context:nil];
-	[self updateShinePositions];
-	[self bringSubviewToFront:_shine1];
-	[self bringSubviewToFront:_shine2];
 }
 
 #pragma mark CoreMotion Methods
 
 - (void)deviceMotionDidUpdate:(CMDeviceMotion *)deviceMotion
-{	
+{
 	// Don't redraw if the change in motion wasn't enough.
 	if ( ABS(deviceMotion.attitude.roll - _previousRoll) < 0.002210f ||
 		 ABS(deviceMotion.attitude.pitch - _previousPitch) < 0.002210f ) {
@@ -250,7 +256,10 @@
 - (void)updateShinePositions
 {
 	[_shine1 setCenter:[(UIImageView *)[self valueForKeyPath:@"_thumbView"] center]];
+	[self bringSubviewToFront:_shine1];
+	
 	[_shine2 setCenter:[(UIImageView *)[self valueForKeyPath:@"_thumbView"] center]];
+	[self bringSubviewToFront:_shine2];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath
