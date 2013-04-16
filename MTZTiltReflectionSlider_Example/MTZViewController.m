@@ -19,14 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	_topSlider = [[MTZTiltReflectionSlider alloc] initWithFrame:CGRectMake(20, 50, 280, 23)];
-	_bottomSlider = [[MTZTiltReflectionSlider alloc] initWithFrame:CGRectMake(20, 100, 280, 23)];
-	
 	[_topSlider setSize:MTZTiltReflectionSliderSizeSmall];
 	[_bottomSlider setSize:MTZTiltReflectionSliderSizeRegular];
-	
-	[self.view addSubview:_topSlider];
-	[self.view addSubview:_bottomSlider];
 }
 
 - (void)viewWillAppear:(BOOL)animated
