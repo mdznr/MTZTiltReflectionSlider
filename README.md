@@ -6,8 +6,8 @@ The knob changes it's lighting reflection based on the motion of the device.
 
 Examples:
 
-![Example 1](README Images/Slider Example 1.png)
-![Example 1](README Images/Slider Example 2.png)
+![Example 1](README Images/Example 1.png)
+![Example 2](README Images/Example 2.png)
 
 ================================
 
