@@ -79,10 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9031CC0171D01E900F180E7 /* CoreMotion.framework in Frameworks */,
 				C9031C65171CFF8D00F180E7 /* UIKit.framework in Frameworks */,
 				C9031C67171CFF8D00F180E7 /* Foundation.framework in Frameworks */,
 				C9031C69171CFF8D00F180E7 /* CoreGraphics.framework in Frameworks */,
+				C9031CC0171D01E900F180E7 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
