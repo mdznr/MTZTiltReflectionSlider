@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9031C65171CFF8D00F180E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9031C64171CFF8D00F180E7 /* UIKit.framework */; };
+		C9031C67171CFF8D00F180E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9031C66171CFF8D00F180E7 /* Foundation.framework */; };
+		C9031C69171CFF8D00F180E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9031C68171CFF8D00F180E7 /* CoreGraphics.framework */; };
+		C9031C6F171CFF8D00F180E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9031C6D171CFF8D00F180E7 /* InfoPlist.strings */; };
+		C9031C71171CFF8D00F180E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031C70171CFF8D00F180E7 /* main.m */; };
+		C9031C75171CFF8D00F180E7 /* MTZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031C74171CFF8D00F180E7 /* MTZAppDelegate.m */; };
+		C9031C77171CFF8D00F180E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031C76171CFF8D00F180E7 /* Default.png */; };
+		C9031C79171CFF8D00F180E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031C78171CFF8D00F180E7 /* Default@2x.png */; };
+		C9031C7B171CFF8D00F180E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031C7A171CFF8D00F180E7 /* Default-568h@2x.png */; };
+		C9031C7E171CFF8D00F180E7 /* MTZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031C7D171CFF8D00F180E7 /* MTZViewController.m */; };
+		C9031C81171CFF8D00F180E7 /* MTZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9031C7F171CFF8D00F180E7 /* MTZViewController.xib */; };
+		C9031CAC171D018A00F180E7 /* MTZTiltReflectionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031C9D171D018A00F180E7 /* MTZTiltReflectionSlider.m */; };
+		C9031CAD171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031C9E171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small.png */; };
+		C9031CAE171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031C9F171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small@2x.png */; };
+		C9031CAF171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA0171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase.png */; };
+		C9031CB0171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA1171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase@2x.png */; };
+		C9031CB1171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA2171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small.png */; };
+		C9031CB2171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA3171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small@2x.png */; };
+		C9031CB3171D018A00F180E7 /* MTZTiltReflectionSliderShineClear.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA4171D018A00F180E7 /* MTZTiltReflectionSliderShineClear.png */; };
+		C9031CB4171D018A00F180E7 /* MTZTiltReflectionSliderShineClear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA5171D018A00F180E7 /* MTZTiltReflectionSliderShineClear@2x.png */; };
+		C9031CB5171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA6171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty.png */; };
+		C9031CB6171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA7171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty@2x.png */; };
+		C9031CB7171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA8171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill.png */; };
+		C9031CB8171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9031CA9171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill@2x.png */; };
+		C9031CB9171D018A00F180E7 /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031CAB171D018A00F180E7 /* UIImage+Shadow.m */; };
+		C9031CBE171D01CE00F180E7 /* UISlider+ForAllStates.m in Sources */ = {isa = PBXBuildFile; fileRef = C9031CBD171D01CE00F180E7 /* UISlider+ForAllStates.m */; };
+		C9031CC0171D01E900F180E7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9031CBF171D01E900F180E7 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9031C61171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTZTiltReflectionSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9031C64171CFF8D00F180E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9031C66171CFF8D00F180E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9031C68171CFF8D00F180E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9031C6C171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTZTiltReflectionSlider_Example-Info.plist"; sourceTree = "<group>"; };
+		C9031C6E171CFF8D00F180E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9031C70171CFF8D00F180E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9031C72171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTZTiltReflectionSlider_Example-Prefix.pch"; sourceTree = "<group>"; };
+		C9031C73171CFF8D00F180E7 /* MTZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTZAppDelegate.h; sourceTree = "<group>"; };
+		C9031C74171CFF8D00F180E7 /* MTZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZAppDelegate.m; sourceTree = "<group>"; };
+		C9031C76171CFF8D00F180E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C9031C78171CFF8D00F180E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C9031C7A171CFF8D00F180E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C9031C7C171CFF8D00F180E7 /* MTZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTZViewController.h; sourceTree = "<group>"; };
+		C9031C7D171CFF8D00F180E7 /* MTZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTZViewController.m; sourceTree = "<group>"; };
+		C9031C80171CFF8D00F180E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MTZViewController.xib; sourceTree = "<group>"; };
+		C9031C9C171D018A00F180E7 /* MTZTiltReflectionSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTZTiltReflectionSlider.h; path = MTZTiltReflectionSlider/MTZTiltReflectionSlider.h; sourceTree = "<group>"; };
+		C9031C9D171D018A00F180E7 /* MTZTiltReflectionSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTZTiltReflectionSlider.m; path = MTZTiltReflectionSlider/MTZTiltReflectionSlider.m; sourceTree = "<group>"; };
+		C9031C9E171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderKnobBase-Small.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderKnobBase-Small.png"; sourceTree = "<group>"; };
+		C9031C9F171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderKnobBase-Small@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderKnobBase-Small@2x.png"; sourceTree = "<group>"; };
+		C9031CA0171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MTZTiltReflectionSliderKnobBase.png; path = MTZTiltReflectionSlider/MTZTiltReflectionSliderKnobBase.png; sourceTree = "<group>"; };
+		C9031CA1171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderKnobBase@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderKnobBase@2x.png"; sourceTree = "<group>"; };
+		C9031CA2171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderShineClear-Small.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderShineClear-Small.png"; sourceTree = "<group>"; };
+		C9031CA3171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderShineClear-Small@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderShineClear-Small@2x.png"; sourceTree = "<group>"; };
+		C9031CA4171D018A00F180E7 /* MTZTiltReflectionSliderShineClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MTZTiltReflectionSliderShineClear.png; path = MTZTiltReflectionSlider/MTZTiltReflectionSliderShineClear.png; sourceTree = "<group>"; };
+		C9031CA5171D018A00F180E7 /* MTZTiltReflectionSliderShineClear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderShineClear@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderShineClear@2x.png"; sourceTree = "<group>"; };
+		C9031CA6171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MTZTiltReflectionSliderTrackEmpty.png; path = MTZTiltReflectionSlider/MTZTiltReflectionSliderTrackEmpty.png; sourceTree = "<group>"; };
+		C9031CA7171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderTrackEmpty@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderTrackEmpty@2x.png"; sourceTree = "<group>"; };
+		C9031CA8171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MTZTiltReflectionSliderTrackFill.png; path = MTZTiltReflectionSlider/MTZTiltReflectionSliderTrackFill.png; sourceTree = "<group>"; };
+		C9031CA9171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MTZTiltReflectionSliderTrackFill@2x.png"; path = "MTZTiltReflectionSlider/MTZTiltReflectionSliderTrackFill@2x.png"; sourceTree = "<group>"; };
+		C9031CAA171D018A00F180E7 /* UIImage+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Shadow.h"; path = "MTZTiltReflectionSlider/UIImage+Shadow.h"; sourceTree = "<group>"; };
+		C9031CAB171D018A00F180E7 /* UIImage+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Shadow.m"; path = "MTZTiltReflectionSlider/UIImage+Shadow.m"; sourceTree = "<group>"; };
+		C9031CBC171D01CE00F180E7 /* UISlider+ForAllStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISlider+ForAllStates.h"; path = "MTZTiltReflectionSlider/UISlider+ForAllStates.h"; sourceTree = "<group>"; };
+		C9031CBD171D01CE00F180E7 /* UISlider+ForAllStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISlider+ForAllStates.m"; path = "MTZTiltReflectionSlider/UISlider+ForAllStates.m"; sourceTree = "<group>"; };
+		C9031CBF171D01E900F180E7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9031C5E171CFF8D00F180E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9031CC0171D01E900F180E7 /* CoreMotion.framework in Frameworks */,
+				C9031C65171CFF8D00F180E7 /* UIKit.framework in Frameworks */,
+				C9031C67171CFF8D00F180E7 /* Foundation.framework in Frameworks */,
+				C9031C69171CFF8D00F180E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9031C58171CFF8D00F180E7 = {
+			isa = PBXGroup;
+			children = (
+				C9031C6A171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example */,
+				C9031C63171CFF8D00F180E7 /* Frameworks */,
+				C9031C62171CFF8D00F180E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9031C62171CFF8D00F180E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9031C61171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9031C63171CFF8D00F180E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9031C64171CFF8D00F180E7 /* UIKit.framework */,
+				C9031C66171CFF8D00F180E7 /* Foundation.framework */,
+				C9031C68171CFF8D00F180E7 /* CoreGraphics.framework */,
+				C9031CBF171D01E900F180E7 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9031C6A171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C9031C73171CFF8D00F180E7 /* MTZAppDelegate.h */,
+				C9031C74171CFF8D00F180E7 /* MTZAppDelegate.m */,
+				C9031C7C171CFF8D00F180E7 /* MTZViewController.h */,
+				C9031C7D171CFF8D00F180E7 /* MTZViewController.m */,
+				C9031C7F171CFF8D00F180E7 /* MTZViewController.xib */,
+				C9031C9B171D00F800F180E7 /* MTZTiltReflectionSlider */,
+				C9031C6B171CFF8D00F180E7 /* Supporting Files */,
+			);
+			path = MTZTiltReflectionSlider_Example;
+			sourceTree = "<group>";
+		};
+		C9031C6B171CFF8D00F180E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9031C6C171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example-Info.plist */,
+				C9031C6D171CFF8D00F180E7 /* InfoPlist.strings */,
+				C9031C70171CFF8D00F180E7 /* main.m */,
+				C9031C72171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example-Prefix.pch */,
+				C9031C76171CFF8D00F180E7 /* Default.png */,
+				C9031C78171CFF8D00F180E7 /* Default@2x.png */,
+				C9031C7A171CFF8D00F180E7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9031C9B171D00F800F180E7 /* MTZTiltReflectionSlider */ = {
+			isa = PBXGroup;
+			children = (
+				C9031C9C171D018A00F180E7 /* MTZTiltReflectionSlider.h */,
+				C9031C9D171D018A00F180E7 /* MTZTiltReflectionSlider.m */,
+				C9031C9E171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small.png */,
+				C9031C9F171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small@2x.png */,
+				C9031CA0171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase.png */,
+				C9031CA1171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase@2x.png */,
+				C9031CA2171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small.png */,
+				C9031CA3171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small@2x.png */,
+				C9031CA4171D018A00F180E7 /* MTZTiltReflectionSliderShineClear.png */,
+				C9031CA5171D018A00F180E7 /* MTZTiltReflectionSliderShineClear@2x.png */,
+				C9031CA6171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty.png */,
+				C9031CA7171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty@2x.png */,
+				C9031CA8171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill.png */,
+				C9031CA9171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill@2x.png */,
+				C9031CAA171D018A00F180E7 /* UIImage+Shadow.h */,
+				C9031CAB171D018A00F180E7 /* UIImage+Shadow.m */,
+				C9031CBC171D01CE00F180E7 /* UISlider+ForAllStates.h */,
+				C9031CBD171D01CE00F180E7 /* UISlider+ForAllStates.m */,
+			);
+			name = MTZTiltReflectionSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9031C60171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9031C84171CFF8D00F180E7 /* Build configuration list for PBXNativeTarget "MTZTiltReflectionSlider_Example" */;
+			buildPhases = (
+				C9031C5D171CFF8D00F180E7 /* Sources */,
+				C9031C5E171CFF8D00F180E7 /* Frameworks */,
+				C9031C5F171CFF8D00F180E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTZTiltReflectionSlider_Example;
+			productName = MTZTiltReflectionSlider_Example;
+			productReference = C9031C61171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9031C59171CFF8D00F180E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matt Zanchelli";
+			};
+			buildConfigurationList = C9031C5C171CFF8D00F180E7 /* Build configuration list for PBXProject "MTZTiltReflectionSlider_Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9031C58171CFF8D00F180E7;
+			productRefGroup = C9031C62171CFF8D00F180E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9031C60171CFF8D00F180E7 /* MTZTiltReflectionSlider_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9031C5F171CFF8D00F180E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9031C6F171CFF8D00F180E7 /* InfoPlist.strings in Resources */,
+				C9031C77171CFF8D00F180E7 /* Default.png in Resources */,
+				C9031C79171CFF8D00F180E7 /* Default@2x.png in Resources */,
+				C9031C7B171CFF8D00F180E7 /* Default-568h@2x.png in Resources */,
+				C9031C81171CFF8D00F180E7 /* MTZViewController.xib in Resources */,
+				C9031CAD171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small.png in Resources */,
+				C9031CAE171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase-Small@2x.png in Resources */,
+				C9031CAF171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase.png in Resources */,
+				C9031CB0171D018A00F180E7 /* MTZTiltReflectionSliderKnobBase@2x.png in Resources */,
+				C9031CB1171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small.png in Resources */,
+				C9031CB2171D018A00F180E7 /* MTZTiltReflectionSliderShineClear-Small@2x.png in Resources */,
+				C9031CB3171D018A00F180E7 /* MTZTiltReflectionSliderShineClear.png in Resources */,
+				C9031CB4171D018A00F180E7 /* MTZTiltReflectionSliderShineClear@2x.png in Resources */,
+				C9031CB5171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty.png in Resources */,
+				C9031CB6171D018A00F180E7 /* MTZTiltReflectionSliderTrackEmpty@2x.png in Resources */,
+				C9031CB7171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill.png in Resources */,
+				C9031CB8171D018A00F180E7 /* MTZTiltReflectionSliderTrackFill@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9031C5D171CFF8D00F180E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9031C71171CFF8D00F180E7 /* main.m in Sources */,
+				C9031C75171CFF8D00F180E7 /* MTZAppDelegate.m in Sources */,
+				C9031C7E171CFF8D00F180E7 /* MTZViewController.m in Sources */,
+				C9031CAC171D018A00F180E7 /* MTZTiltReflectionSlider.m in Sources */,
+				C9031CB9171D018A00F180E7 /* UIImage+Shadow.m in Sources */,
+				C9031CBE171D01CE00F180E7 /* UISlider+ForAllStates.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9031C6D171CFF8D00F180E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9031C6E171CFF8D00F180E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9031C7F171CFF8D00F180E7 /* MTZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9031C80171CFF8D00F180E7 /* en */,
+			);
+			name = MTZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9031C82171CFF8D00F180E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9031C83171CFF8D00F180E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9031C85171CFF8D00F180E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZTiltReflectionSlider_Example/MTZTiltReflectionSlider_Example-Prefix.pch";
+				INFOPLIST_FILE = "MTZTiltReflectionSlider_Example/MTZTiltReflectionSlider_Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9031C86171CFF8D00F180E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTZTiltReflectionSlider_Example/MTZTiltReflectionSlider_Example-Prefix.pch";
+				INFOPLIST_FILE = "MTZTiltReflectionSlider_Example/MTZTiltReflectionSlider_Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9031C5C171CFF8D00F180E7 /* Build configuration list for PBXProject "MTZTiltReflectionSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9031C82171CFF8D00F180E7 /* Debug */,
+				C9031C83171CFF8D00F180E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9031C84171CFF8D00F180E7 /* Build configuration list for PBXNativeTarget "MTZTiltReflectionSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9031C85171CFF8D00F180E7 /* Debug */,
+				C9031C86171CFF8D00F180E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9031C59171CFF8D00F180E7 /* Project object */;
+}
