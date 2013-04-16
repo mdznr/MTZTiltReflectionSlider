@@ -2,6 +2,13 @@
 
 A `UISlider` subclass mimicking and improving the tilt controlled slider added to Music.app in iOS 6
 
+The knob changes it's lighting reflection based on the motion of the device.
+
+Examples:
+
+![Example 1](README Images/Slider Example 1.png)
+![Example 1](README Images/Slider Example 2.png)
+
 ================================
 
 #How To Use:
