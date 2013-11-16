@@ -53,7 +53,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 													   CGImageGetBitsPerComponent(self.CGImage),
 													   0,
 													   colourSpace,
-													   kCGImageAlphaPremultipliedLast);
+													   (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
 	
 	CGColorSpaceRelease(colourSpace);
 	CGContextSetShadowWithColor(shadowContext,
@@ -90,7 +90,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 													   CGImageGetBitsPerComponent(self.CGImage),
 													   0,
 													   colourSpace,
-													   kCGImageAlphaPremultipliedLast);
+													   (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
 	
 	CGColorSpaceRelease(colourSpace);
 	CGContextSetShadowWithColor(shadowContext,
