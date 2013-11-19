@@ -129,10 +129,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	[self getReadyForMotionDetection];
 	
 	// Observe _thumbView's frame
-	[self performSelector:@selector(observeThumbViewFrame) withObject:nil afterDelay:FLT_MIN];
+	[self performSelector:@selector(observeThumbViewFrame) withObject:nil afterDelay:DBL_MIN];
 	
 	// Center shine
-	[self performSelector:@selector(updateShinePositions) withObject:nil afterDelay:FLT_MIN];
+	[self performSelector:@selector(updateShinePositions) withObject:nil afterDelay:DBL_MIN];
 }
 
 - (void)setSize:(MTZTiltReflectionSliderSize)size
